@@ -1,0 +1,133 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 50px;
+    background: #154872;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.navbar nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar nav a:hover {
+    color: black;
+}
+
+/* Background */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0a3d91, #00a1ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Login box */
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    width: 350px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Logo */
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/* Heading */
+.login-box h2 {
+    color: #0a3d91;
+    margin-bottom: 30px;
+}
+
+/* Input groups */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #0a3d91;
+    box-shadow: 0 0 10px rgba(10, 61, 145, 0.5);
+}
+
+/* Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0a3d91;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0050c1;
+}
+
+/* Forgot password */
+.forgot {
+    margin-top: 15px;
+}
+
+.forgot a {
+    color: #0a3d91;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
